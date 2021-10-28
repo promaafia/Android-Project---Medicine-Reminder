@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context="com.example.bossthedevil.medicinereminder.MainActivity">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="250dp"
+       android:layout_marginTop="100dp"
+       android:orientation="vertical">
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="25dp"
+           android:layout_marginLeft="25dp"
+           android:hint="Enter Email"
+           android:id="@+id/username"
+           android:textColor="#fff"
+           android:textAlignment="center"
+           android:textSize="20dp"
+           android:layout_marginRight="25dp"/>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="25dp"
+           android:id="@+id/mobile"
+           android:hint="Enter Mobile"
+           android:textAlignment="center"
+           android:textSize="20dp"
+           android:textColor="#fff"
+           android:layout_marginRight="25dp"/>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="25dp"
+           android:layout_marginRight="25dp"
+           android:layout_marginLeft="25dp"
+           android:textColor="#fff"
+           android:id="@+id/sub"
+           android:background="@color/colorPrimaryDark"
+           android:text="Subscribe"/>
+
+   </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progbarlog"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+
+        android:background="#FFA000" />
+
+</RelativeLayout>

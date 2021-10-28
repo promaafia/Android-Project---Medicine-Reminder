@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <string name="radio_continouse">continouse</string>
+    <string name="number">Number of a day</string>
+    <string name="every_day">Every Day</string>
+    <string name="spdays">specific Day of  week</string>
+    <string name="interval">days interval</string>
+    <string name="cycle">Birth control Cycle</string>
+
+</resources>
